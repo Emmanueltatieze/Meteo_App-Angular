@@ -11,8 +11,14 @@
 
 <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="../assets/hot.jpg" *ngIf="weatherData.main.temp - 273 > 15" />
-    <img src="../assets/cold.jpg" *ngIf="weatherData.main.temp - 273 <= 15" />
+    <img
+      src="https://img.freepik.com/photos-premium/illustration-pour-enfants-nuages-ciel-bleu-clair-grand-soleil-jaune-haricots_252214-1932.jpg?w=1060"
+      *ngIf="weatherData.main.temp - 273 > 15"
+    />
+    <img
+      src="https://img.freepik.com/vecteurs-libre/fond-solstice-hiver-dans-style-dessine-main_23-2149203683.jpg?w=1060&t=st=1676305983~exp=1676306583~hmac=d4e6c3b6298ca469ce3861fd4fb192a818833c7143f7c85a6ca309d887f64bc2"
+      *ngIf="weatherData.main.temp - 273 <= 15"
+    />
 
     <div class="weather-data">
       <div class="location">{{ weatherData.name }}</div>
@@ -36,7 +42,7 @@
     <div class="more-infos-container">
       <div class="infos-block">
         <div class="infos-block-label">
-          <img src="../assets/basse-temperature.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/2322/2322701.png" />
           <span>min</span>
         </div>
         <div class="infos-block-value">
@@ -46,7 +52,7 @@
 
       <div class="infos-block">
         <div class="infos-block-label">
-          <img src="../assets/temperature.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/6474/6474692.png" />
           <span>max</span>
         </div>
         <div class="infos-block-value">
@@ -56,7 +62,7 @@
 
       <div class="infos-block">
         <div class="infos-block-label">
-          <img src="../assets/humidity.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/2903/2903592.png" />
           <span>humidity</span>
         </div>
         <div class="infos-block-value">{{ weatherData.main.humidity }}%</div>
@@ -64,7 +70,7 @@
 
       <div class="infos-block">
         <div class="infos-block-label">
-          <img src="../assets/vent.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/1506/1506761.png" />
           <span>wind</span>
         </div>
         <div class="infos-block-value">{{ weatherData.wind.speed }} km/h</div>
