@@ -1,3 +1,17 @@
+
+| Deployed App | 
+|:-------------:|
+|<a style="display: inline-block" href="#"><img src="https://github.com/Emmanueltatieze/Emmanueltatieze/blob/main/AngularApp.gif" width="70%" /></a><br /><a href="#">Angular App</a>|
+
+
+
+
+
+
+
+
+
+
 # AngularWeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
